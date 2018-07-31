@@ -1,10 +1,10 @@
-#Calendário por ano
+# Calendário por ano
 
 Este é um projeto | desafio que inicie em inspiração a uma publicação no facebook.
 
 https://www.facebook.com/groups/osadpa/permalink/1565130443592477
 
-##Referências
+## Referências
 
 Usei como referência o cálculo para saber qual é o dia da semana cai qualquer dia, cálculo descrito no vídeo do Prof. Rafael Procopio do canal Matemática Rio com Prof. Rafael Procopio.
 
@@ -14,9 +14,9 @@ E usei também o cálculo do ano bissexto descrito no wikipedia, uma explicaçã
 
 Pagina: https://pt.wikipedia.org/wiki/Ano_bissexto
 
-##Cálculos
+## Cálculos
 
-###Dia da semana de qualquer dia da história.
+### Dia da semana de qualquer dia da história.
 
 ```php
 $d = 6;     //dia
@@ -70,7 +70,7 @@ $resultadoEsperado = [
 
 Com `$resultadoEsperado` eu obtia o resultado tendo como Domingo sendo o dia 0 da semana.
 
-###Calculo do ano bissexto 
+### Calculo do ano bissexto 
 
 ```php
 $ano = 1990;  //ano
@@ -92,7 +92,7 @@ Essas regras concluem que o ano tem 365,2425 dias. Resolvido com a seguinte cont
 365 + (1 / 400) + (1 / 4) - (1 / 100) = 365,2425
 ```
 
-##Modo de uso
+## Modo de uso
 
 Para usar, é preciso colocar o código em um servidor web que use php. depois acessar diretamente o arquivo como:
 
@@ -108,7 +108,7 @@ localhost/calendario-por-ano.php?ano=1990
 
 `ano` será o ano que vc quer ver o calendário.
 
-##Resultado
+## Resultado
 
 O resultado sairá como no exemplo a seguir:
 
@@ -154,6 +154,6 @@ O resultado sairá como no exemplo a seguir:
 
 OBS.: Março aparece sem "ç" pôs bugava o layout.
 
-##Agradecimentos
+## Agradecimentos
 
 Agradecimentos ao Cristian Mota por ter crido o post que me incentivou a criar este código, agradecimentos ao Prof. Rafael Procopio por seu vídeo explicando a fórmula, e agradecimentos a wikipédia e seus colaboradores com sua explicação super satisfatória sobre o ano bissexto.
