@@ -152,7 +152,7 @@ O resultado sairá como no exemplo a seguir:
 ╚════════════════════╝ ╚════════════════════╝ ╚════════════════════╝ ╚════════════════════╝ 
 ```
 
-OBS.: Março aparece sem "ç" pós bugava o layout.
+OBS.: Março aparece sem "ç" pôs bugava o layout.
 
 ##Agradecimentos
 
